@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+body{
+    background-color:rgb(201,201,201,1);
+}
+
+h1 {
+    font-family: 'Parisienne', cursive;
+}
+
+#green{
+    background-color: rgb(35, 79, 55, 1);
+}
+
+#blue{
+   background-color:rgb(19, 31, 122,1); 
+}
+
+#purple{
+    background-color: rgb(67, 39, 137,1);
+}
+
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+
+.blue-text{
+    color: rgb(19, 31, 122);
+}
+.white-text{
+    color: #ffffff;
+}
+
+.circle {
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.updates{
+    background-color:rgb(201,201,201,.75);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.posted{
+    text-align: right;
+    font-size: 10px;
+    color: rgb(201,201,201);
+}
+
+.party {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.partyphoto{
+    width: 100%;
+}
